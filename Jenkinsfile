@@ -9,9 +9,9 @@ pipeline{
         stage('Build and push images') {
             steps {
                 //sh "ln -s DevOps-Project2/docker-compose.yaml build" 
-                sh "sudo docker-compose build --parallel"
+                sh "docker compose build --parallel"
                // sh "docker login -u $DOCKER_UNAME -p $DOCKER_PWORD"
-                sh "sudo docker-compose push"
+                sh "docker compose push"
             }
         }
     }
