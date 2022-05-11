@@ -7,10 +7,6 @@ pipeline{
             }
         }
         stage('Build and push images') {
-            environment {
-               // DOCKER_UNAME = credentials('docker_uname')
-                //DOCKER_PWORD = credentials('docker_pword')
-            }
             steps {
                 //sh "ln -s DevOps-Project2/docker-compose.yaml build" 
                 sh "docker-compose build --parallel"
