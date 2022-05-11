@@ -1,0 +1,35 @@
+version: "3.8"
+services: 
+  nginx: 
+    container_name: nginx_1
+    image: nginx:latest
+    ports: 
+    - target: 80
+      published: 80
+      protocol: tcp
+    volumes: 
+    - type: bind 
+      source: ./nginx.conf
+      target: /etc/nginx/nginx.conf
+    depends_on: 
+    - front-end 
+
+  front-end: 
+    container_name: char_frontend_api
+    build: ./char_frontend_api
+    depends_on: 
+    - char_name_api
+    - char_class_api
+    - char_attribute_api 
+
+  name_api: 
+    container_name: char_name_api
+    build: ./char_name_api
+
+  class_api:
+    container_name: char_class_api 
+    build: ./char_class_api 
+
+  attribute_api:
+    container_name: char_attribute_api 
+    build: ./char_attribute_api 

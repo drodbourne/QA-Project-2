@@ -1,0 +1,64 @@
+
+{% block body %}
+<h2> Random Character Generator </h2>
+<br>
+<h3> This character, class & attribute to a weapon </h3>
+<table>
+    <thead>
+        <tr>
+            
+            <th>Character Name</th>
+            <th>Class</th>
+            <th>Attribute to Weapon</th>
+                       
+        </tr>
+        </thead>
+        <tbody>
+<tr>
+    
+
+    
+    <td>{{ char_name }}</td>
+    <td>{{ char_class }}</td>
+    <td>{{ char_attribute }}</td>
+    
+
+    </tr>
+
+    
+</tbody>
+</table>
+
+
+<br>
+<h3> Previous 5 Characters: </h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Character ID</th>
+            <th>Character Name</th>
+            <th>Class</th>
+            <th>Attribute to Weapon</th>
+                        
+        </tr>
+        </thead>
+        <tbody>
+<tr>
+    {% for chars in prev5 %}
+
+    <td>{{chars.id}}</td>
+    <td>{{chars.char_name}}</td>
+    <td>{{chars.char_class}}</td>
+    <td>{{chars.char_attribute}}</td>
+   
+
+
+    </tr>
+
+    {% endfor %}
+</tbody>
+</table>
+
+
+{% endblock body %}
