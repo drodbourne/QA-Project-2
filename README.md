@@ -14,11 +14,12 @@ methodologies and technologies that encapsulate all core modules covered during 
 * Cloud Fundamentals
 * NGINX as reverse proxy
 
-<p class="aligncenter">
+<p align="center">
+
 <img src="https://github.com/drodbourne/dalerep/blob/main/Project2.drawio.png">
 </p>
 
 
-<p>
+<p align="center">
 <img src="https://github.com/drodbourne/dalerep/blob/main/QA2RA.png">
 </p>
