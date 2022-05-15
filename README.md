@@ -36,6 +36,8 @@ I used a trello board to help keep track of my progress.
 <img src="https://github.com/drodbourne/dalerep/blob/main/QA2RA.png">
 </p>
 
+<h3>Front End</h3>
+
 <p align="center">
 
 <img src="https://github.com/drodbourne/dalerep/blob/main/Project2.drawio.png">
@@ -55,7 +57,7 @@ I used a trello board to help keep track of my progress.
 
 <table>
     <tr>
-    <td>Service 1 front end testing get request for service 2 & 3. </td>
+    <td>Service 1: Front end testing get request for service 2 & 3. </td>
     </tr>
   <tr>
     <td><p>
@@ -66,7 +68,7 @@ I used a trello board to help keep track of my progress.
 
 <table>
     <tr>
-    <td>Service 2 get a character test response </td>
+    <td>Service 2: Get a character test response </td>
     </tr>
   <tr>
     <td><p>
@@ -77,7 +79,7 @@ I used a trello board to help keep track of my progress.
 
 <table>
     <tr>
-    <td>Service 3 get a class test response </td>
+    <td>Service 3: Get a class test response </td>
     </tr>
   <tr>
     <td><p>
@@ -88,7 +90,7 @@ I used a trello board to help keep track of my progress.
 
 <table>
     <tr>
-    <td>Service 4 test to make sure correct attributes are being assigned to information from service 2 & 3.</td>
+    <td>Service 4: Test to make sure correct attributes are being assigned to data sent from service 2 & 3.</td>
     </tr>
   <tr>
     <td><p>
