@@ -11,7 +11,7 @@ def home():
     char_name = requests.get('http://char_name_api:5000/get_name')
     char_class = requests.get('http://char_class_api:5000/get_class')
     char_attribute = requests.post('http://char_attribute_api:5000/get_attribute', json = {"Name": char_name.text, "Class": char_class.text})
-    char_db = Character(char_name = char_name.text, char_class = char_class.text, char_attribute = char_attribute.text, date_generated = datetime.date.today())
+    char_db = Character(char_name = char_name.text, char_class = char_class.text, char_attribute = char_attribute.text)
     db.session.add(char_db)
     db.session.commit()
     prev5 = Character.query.order_by(Character.id.desc()).limit(5).all()

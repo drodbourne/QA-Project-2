@@ -12,16 +12,13 @@ from flask_testing import TestCase
 # Create the base class
 class TestBase(TestCase):
     def create_app(self):
+        
         return app
 
     
-#class TestChar(TestBase):
- #   def test_char(self):
-  #      response = self.client.get(url_for('home'))
-   #     assert 'Half Elf' in response.data.decode()
-    #    assert 'Ranger' in response.data.decode()
-     #   assert '+6 to Bow & Arrow'in response.data.decode()
-      #  assert '2022, 6, 5' in response.data.decode()
+
+    
+
 
 class TestViews(TestBase):
   
@@ -41,6 +38,7 @@ class TestViews(TestBase):
          
 
 
+      
 
 
 
