@@ -36,13 +36,15 @@ I used a trello board to help keep track of my progress.
 <img src="https://github.com/drodbourne/dalerep/blob/main/QA2RA.png">
 </p>
 
-<h3>App Design</h3>
+<h3>Project Design</h3>
 
-<p align="center">
+<p >
 
 <img src="https://github.com/drodbourne/dalerep/blob/main/Project2.drawio.png">
 </p>
+
 <h3>Front End</h3>
+
 <p align="center">
 
 <img src="https://github.com/drodbourne/dalerep/blob/main/Rcg2.png">
